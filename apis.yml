@@ -1,0 +1,34 @@
+aid: apache-jclouds
+name: Apache jclouds
+description: >-
+  Apache jclouds is an open-source multi-cloud toolkit for the Java platform that provides a portable abstraction for cloud APIs. It supports over 30 cloud providers including AWS, Azure, GCP, and OpenStack.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Cloud
+  - Multi-Cloud
+  - Java
+  - Abstraction Layer
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-jclouds/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-jclouds:apache-jclouds
+    name: Apache jclouds
+    description: >-
+      jclouds provides a unified Java and Clojure API for compute (VM management), blobstore (object storage), and provider-specific APIs across 30+ cloud providers including AWS, Azure, GCP, DigitalOcean, and OpenStack.
+    humanURL: https://jclouds.apache.org/start/
+    tags:
+      - Java
+      - Cloud
+      - Multi-Cloud
+    properties:
+      - type: Documentation
+        url: https://jclouds.apache.org/start/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
