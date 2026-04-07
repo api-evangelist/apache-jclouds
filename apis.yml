@@ -1,5 +1,5 @@
 aid: apache-jclouds
-name: Apache jclouds
+name: Apache Jclouds
 description: >-
   Apache jclouds is an open-source multi-cloud toolkit for the Java platform that provides a portable abstraction for cloud APIs. It supports over 30 cloud providers including AWS, Azure, GCP, and OpenStack.
 type: Index
@@ -18,7 +18,7 @@ url: >-
 specificationVersion: '0.19'
 apis:
   - aid: apache-jclouds:apache-jclouds
-    name: Apache jclouds
+    name: Apache Jclouds
     description: >-
       jclouds provides a unified Java and Clojure API for compute (VM management), blobstore (object storage), and provider-specific APIs across 30+ cloud providers including AWS, Azure, GCP, DigitalOcean, and OpenStack.
     humanURL: https://jclouds.apache.org/start/
