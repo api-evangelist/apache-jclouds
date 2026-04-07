@@ -7,10 +7,10 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Cloud
-  - Multi-Cloud
-  - Java
   - Abstraction Layer
+  - Cloud
+  - Java
+  - Multi-Cloud
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -23,8 +23,8 @@ apis:
       jclouds provides a unified Java and Clojure API for compute (VM management), blobstore (object storage), and provider-specific APIs across 30+ cloud providers including AWS, Azure, GCP, DigitalOcean, and OpenStack.
     humanURL: https://jclouds.apache.org/start/
     tags:
-      - Java
       - Cloud
+      - Java
       - Multi-Cloud
     properties:
       - type: Documentation
