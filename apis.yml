@@ -61,7 +61,7 @@ common:
     url: https://www.apache.org/licenses/LICENSE-2.0
   - type: Versioning
     url: https://jclouds.apache.org/releasenotes/
-  - type: SDK
+  - type: SDKs
     url: https://search.maven.org/search?q=g:org.apache.jclouds
   - type: Features
     data:
