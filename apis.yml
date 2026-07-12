@@ -49,6 +49,10 @@ apis:
         url: https://jclouds.apache.org/start/blobstore/
 
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-jclouds-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-jclouds-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/apache
   - type: GitHubRepository
@@ -95,6 +99,8 @@ common:
         description: Full OpenStack Nova compute and Swift object storage support.
       - name: DigitalOcean
         description: DigitalOcean Droplets and Spaces support via jclouds provider.
+  - url: https://jclouds.apache.org/releasenotes/atom.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
