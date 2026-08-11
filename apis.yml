@@ -61,6 +61,10 @@ apis:
         url: https://jclouds.apache.org/start/blobstore/
 
 common:
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/jclouds/blob/master/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/apache-jclouds-vulnerability-disclosure.yml
   - type: DomainSecurity
