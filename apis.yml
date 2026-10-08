@@ -83,6 +83,12 @@ apis:
         url: https://jclouds.apache.org/start/blobstore/
 
 common:
+  - type: Plans
+    url: plans/apache-jclouds-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/apache-jclouds-rate-limits.yml
+  - type: FinOps
+    url: finops/apache-jclouds-finops.yml
   - type: Website
     url: https://www.apache.org/
   - type: CodeOfConduct
