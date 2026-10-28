@@ -1,4 +1,4 @@
-# Apache Jclouds (apache-jclouds)
+# Apache Jclouds
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,88 +66,106 @@
 
 Apache jclouds is an open-source multi-cloud toolkit for the Java platform that provides a portable abstraction for cloud APIs. It supports over 30 cloud providers including AWS, Azure, GCP, Rackspace, and OpenStack for compute, blobstore, and DNS operations.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-jclouds/refs/heads/main/apis.yml)
+**Areas:** Abstraction Layer · Cloud · Java · Multi-Cloud · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Jclouds on APIs.io
 
-## Tags:
+Everything profiled for Apache Jclouds is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-jclouds/](https://apis.io/providers/apache-jclouds/)** — or go straight to one of the APIs or properties below.
 
- - Abstraction Layer, Cloud, Java, Multi-Cloud, Open Source
+### APIs (2)
 
-## Timestamps
+- [Apache Jclouds Compute API](https://apis.io/apis/apache-jclouds/compute-api/) — The jclouds Compute API provides a unified Java interface for managing virtual machine instances, images, hardware profiles, and networking across 30+ cloud…
+- [Apache Jclouds BlobStore API](https://apis.io/apis/apache-jclouds/blobstore-api/) — The jclouds BlobStore API provides a unified Java interface for object storage operations across AWS S3, Azure Blob Storage, GCP Cloud Storage, Rackspace…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Jclouds Compute API
-The jclouds Compute API provides a unified Java interface for managing virtual machine instances, images, hardware profiles, and networking across 30+ cloud providers.
+#### Security (2)
 
-**Human URL:** [https://jclouds.apache.org/start/compute/](https://jclouds.apache.org/start/compute/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Jclouds Domain Security](https://apis.io/security/apache-jclouds/apache-jclouds-domain-security/)
+- [Apache Jclouds Vulnerability Disclosure](https://apis.io/security/apache-jclouds/apache-jclouds-vulnerability-disclosure/)
 
- - Cloud, Compute, Java, VM Management
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://jclouds.apache.org/start/compute/)
-- [GettingStarted](https://jclouds.apache.org/start/)
+- [Apache Jclouds Plans Pricing](https://apis.io/plans/apache-jclouds/apache-jclouds-plans-pricing/)
 
-### Apache Jclouds BlobStore API
-The jclouds BlobStore API provides a unified Java interface for object storage operations across AWS S3, Azure Blob Storage, GCP Cloud Storage, and OpenStack Swift.
+#### Rate limits (1)
 
-**Human URL:** [https://jclouds.apache.org/start/blobstore/](https://jclouds.apache.org/start/blobstore/)
+Published request limits.
 
-#### Tags:
+- [Apache Jclouds Rate Limits](https://apis.io/rate-limits/apache-jclouds/apache-jclouds-rate-limits/)
 
- - Blob Storage, Cloud, Java, Object Storage
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://jclouds.apache.org/start/blobstore/)
+- [Apache Jclouds Finops](https://apis.io/finops/apache-jclouds/apache-jclouds-finops/)
 
-## Common Properties
+## Where to find this API
 
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/jclouds)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://jclouds.apache.org/documentation/)
-- [GettingStarted](https://jclouds.apache.org/start/)
-- [TermsOfService](https://www.apache.org/licenses/LICENSE-2.0)
-- [Versioning](https://jclouds.apache.org/releasenotes/)
-- [SDK](https://search.maven.org/search?q=g:org.apache.jclouds)
+- [Getting started](https://jclouds.apache.org/start/)
+- [Blog](https://jclouds.apache.org/releasenotes/atom.xml)
+- [Terms of service](https://www.apache.org/licenses/LICENSE-2.0)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Multi-Cloud Portability | Write cloud code once and run it across 30+ providers without modification. |
-| Compute API | Unified API for VM lifecycle management across all supported cloud providers. |
-| BlobStore API | Unified object storage API across AWS S3, Azure, GCP, and OpenStack Swift. |
-| Provider Abstraction | Provider-specific APIs available alongside portable abstractions. |
-| Async Support | Asynchronous operations using Java Futures for non-blocking cloud calls. |
+**Kin Score 19.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Multi-Cloud Deployments | Deploy applications across multiple cloud providers with a single codebase. |
-| Cloud Migration | Migrate workloads between cloud providers using portable APIs. |
-| Cloud Cost Optimization | Switch cloud providers transparently based on pricing or availability. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| AWS EC2 and S3 | Full compute and object storage support for Amazon Web Services. |
-| Microsoft Azure | Azure Compute and Blob Storage integration. |
-| Google Cloud Platform | GCP Compute Engine and Cloud Storage integration. |
-| OpenStack | Full OpenStack Nova compute and Swift object storage support. |
-| DigitalOcean | DigitalOcean Droplets and Spaces support via jclouds provider. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-jclouds/](https://apis.io/providers/apache-jclouds/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Jclouds: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-jclouds/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
